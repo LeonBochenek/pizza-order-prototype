@@ -1,0 +1,42 @@
+{
+  "allergens": [
+    {
+      "id": 1,
+      "name": "gluten"
+    },
+    {
+      "id": 2,
+      "name": "casein"
+    },
+
+    {
+      "id": 3,
+      "name": "tree nuts"
+    },
+
+    {
+      "id": 4,
+      "name": "shrimps"
+    },
+
+    {
+      "id": 5,
+      "name": "soybeans"
+    },
+
+    {
+      "id": 6,
+      "name": "eggs"
+    },
+
+    {
+      "id": 7,
+      "name": "peanuts"
+    },
+
+    {
+      "id": 8,
+      "name": "lactose"
+    }
+  ]
+}

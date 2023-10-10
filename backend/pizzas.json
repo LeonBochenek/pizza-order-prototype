@@ -1,0 +1,54 @@
+{  
+    "pizzas" : 
+    [
+        {
+            "id": 1,
+            "name": "Marinara",
+            "ingredients" : [ "San Marzano tomato sauce", "garlic", "oregano", "olive oil" ],
+            "price": 3200,
+            "allergens": [1,3]
+        },
+        {
+            "id": 2,
+            "name": "Hot Chicken",
+            "ingredients" : [ "Grilled chicken", "jalapeño", "mozzarella", "herb tomato sauce"],
+            "price": 4000,
+            "allergens": [1,8]
+        },
+        {
+            "id": 3,
+            "name": "Bacon and Egg Pizza",
+            "ingredients" : [ "becon", "egg", "potatoes", "Fontina" ],
+            "price": 4200,
+            "allergens": [6]
+        },
+        {
+            "id": 4,
+            "name": "Margherita",
+            "ingredients" : [ "tomato sauce", "mozzarella", "oregano", "onion" ],
+            "price": 3000,
+            "allergens": [1]
+        },
+        {
+            "id": 5,
+            "name": "Ricardo",
+            "ingredients" : [ "tomato sauce", "mozzarella", "garlic", "oregano", "olive oil", "pepper" ],
+            "price": 4500,
+            "allergens": [1,6]
+        },
+        {
+            "id": 6,
+            "name": "Primavera",
+            "ingredients" : [ "tomato sauce", "mozzarella", "salami", "green pesto" ],
+            "price": 3200,
+            "allergens": [1,7]
+        },
+        {
+            "id": 7,
+            "name": "Funghi",
+            "ingredients" : [ "tomato sauce", "mozzarella", "mushrooms", "oregano" ],
+            "price": 3200,
+            "allergens": [1,3]
+        }
+    ]
+}

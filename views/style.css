@@ -1,0 +1,204 @@
+
+.container{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #252525f2;
+    margin-left: 250px;
+}
+.element{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 15px;
+    margin: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius:5px;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.element .img-size{
+    margin-left: 45px;
+    width: 250px;
+    height: 200px;
+  }
+
+  h1.centered {
+    text-align: center;
+  }
+
+  h2.centered {
+    text-align: center;
+  }
+
+  .ingredients {
+        display: flex;
+        justify-content: center;
+  }
+
+.cta{
+    
+/* button style */
+
+background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+text-align: center;
+text-transform: lowercase;
+transition: 0.5s;
+color: white;   
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+border: none;
+/* inner text style  */
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+padding: 10px 25px;
+line-height: 23px;
+color: #e7e7e7;
+
+} 
+
+
+.cta:hover{
+
+/* button style */
+background-position: right center;
+color: #fff;
+text-decoration: none;
+border: none;
+transform: translateY(-2px);
+/* inner text style  */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+padding: 10px 25px;
+line-height: 23px;
+color: #F2F2F2;
+
+} 
+/* buttons */
+.allergenElement {       
+        display: inline-block;
+        background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
+        width: 200px;
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        
+        cursor: pointer;
+        border:none;
+        font-weight: 500;
+}
+.allergenElement:hover{
+background-position: right center; 
+ color: #fff;
+text-decoration: none; 
+}
+
+.allergensContainer {
+    width: 80%;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* display: flex;
+    align-items: center; */
+}
+
+.allergenElement:hover {
+
+  background-color:  rgb(224, 167, 8);
+
+}
+
+.allergenElement.change {
+    background-color: rgb(175, 130, 4);
+    border: 3px solid #02AAB0;
+}
+
+
+
+
+#root{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+input{
+    width: 150px;
+    height: 5px;
+    border-radius: 25px;
+    border: 1px solid rgb(12, 11, 11);
+    padding: 15px;
+    margin-bottom: 20px;
+    /* display: block; */
+}
+
+.data{
+    width: 151px;
+    height: 400px;
+    
+}
+
+
+.minus {
+    display: inline-block;
+    padding: 7px 10px 8px;
+    height: 41px;
+    border-left: 0;
+    cursor:pointer;
+    width: 40px;  
+}
+   
+.plus {
+    display: inline-block;
+    padding: 7px 10px 8px;
+    height: 41px;
+    border-left: 0;
+    cursor:pointer;
+    width: 40px;    
+}
+
+.plus:hover {
+    background-color: #ffffff
+}
+
+.minus:hover {
+    background-color: #ffffff
+}
+
+.input-text {
+    width: 30px;
+    border-radius: 0;
+}
+.left{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  line-height: 0px;
+}
+.hero{
+    margin-top: 20px;
+    display:inline-block;
+    margin-left: 520px;
+    text-align: center;
+
+
+}
+
+.dupa{
+    width: 300px;
+}
